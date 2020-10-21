@@ -4,18 +4,32 @@ import java.io.Serializable;
 
 public class Bet implements Serializable{
     public Long id;
-    public int number;
+    public Long number;
     public String color;
     public Long idUser;
-    public Long money;
+    public float money;
     public Long numRoulette;
+    public String result = "loser";
+    public float moneyEarned = 0;
 
-    public Bet(int number, String color, Long idUser, Long money, Long numRoulette) {
+    public Bet(Long number, String color, Long idUser, Long money, Long numRoulette) {
         this.number = number;
         this.color = color;
         this.idUser = idUser;
         this.money = money;
         this.numRoulette = numRoulette;
+    }
+    public float getMoneyEarned() {
+        return moneyEarned;
+    }
+    public void setMoneyEarned(float moneyEarned) {
+        this.moneyEarned = moneyEarned;
+    }
+    public String getResult() {
+        return result;
+    }
+    public void setResult(String result) {
+        this.result = result;
     }
     public Long getId() {
         return id;
@@ -23,10 +37,10 @@ public class Bet implements Serializable{
     public void setId(Long id) {
         this.id = id;
     }
-    public int getNumber() {
+    public Long getNumber() {
         return number;
     }
-    public void setNumber(int number) {
+    public void setNumber(Long number) {
         this.number = number;
     }
     public String getColor() {
@@ -41,7 +55,7 @@ public class Bet implements Serializable{
     public void setIdUser(Long idUser) {
         this.idUser = idUser;
     }
-    public Long getMoney() {
+    public float getMoney() {
         return money;
     }
     public void setMoney(Long money) {
