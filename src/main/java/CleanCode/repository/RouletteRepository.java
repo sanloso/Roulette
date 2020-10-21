@@ -3,7 +3,6 @@ package CleanCode.repository;
 import CleanCode.exception.RoulException;
 import CleanCode.model.Roulette;
 import org.springframework.stereotype.Repository;
-
 import java.util.List;
 
 @Repository

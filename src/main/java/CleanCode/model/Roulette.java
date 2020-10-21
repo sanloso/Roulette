@@ -1,7 +1,6 @@
 package CleanCode.model;
 
 import org.springframework.data.annotation.Id;
-
 import java.io.Serializable;
 
 public class Roulette implements Serializable {
@@ -31,8 +30,8 @@ public class Roulette implements Serializable {
     public int getBets() {
         return bets;
     }
-    public void setBets(int bets) {
-        this.bets = bets;
+    public void setBets() {
+        this.bets = bets + 1;
     }
     @Override
     public String toString() {
