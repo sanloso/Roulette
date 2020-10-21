@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e675e04c-09a8-4332-a31a-11151c307af6" name="Default Changelist" comment="" />
+    <list default="true" id="e675e04c-09a8-4332-a31a-11151c307af6" name="Default Changelist" comment="&quot;First endpoint roulette creation&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CleanCode/exception/RoulException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CleanCode/controller/BallController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CleanCode/controller/RouletteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CleanCode/model/Ball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CleanCode/model/Roulette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CleanCode/model/Roulette.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CleanCode/repository/BallRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CleanCode/repository/RouletteRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CleanCode/repository/impl/BallRespository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CleanCode/repository/impl/RouletteRespository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CleanCode/service/BallService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CleanCode/service/RouletteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CleanCode/service/impl/BallService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CleanCode/service/impl/RouletteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CleanCode/controller/BallController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CleanCode/model/Ball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CleanCode/model/Roulette.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CleanCode/model/Roulette.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CleanCode/repository/BallRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CleanCode/repository/impl/BallRespository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CleanCode/service/BallService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CleanCode/service/impl/BallService.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +32,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -30,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
@@ -73,35 +95,69 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;First endpoint roulette creation&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;First endpoint roulette creation&quot;" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1603236479619">
-      <screen x="0" y="23" width="1440" height="824" />
+    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1603253802892">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.824@0.23.1440.824" timestamp="1603236479619" />
+    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.825@0.23.1440.825" timestamp="1603252226924" />
+    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.826@0.23.1440.826" timestamp="1603253802892" />
+    <state x="533" y="126" key="#com.intellij.ide.util.MemberChooser/0.23.1440.827@0.23.1440.827" timestamp="1603250378069" />
     <state x="486" y="301" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603232186012">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="486" y="301" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.824@0.23.1440.824" timestamp="1603232186012" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1603239451052">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state x="419" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603245559746">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="419" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.827@0.23.1440.827" timestamp="1603245559746" />
+    <state x="299" y="37" key="CommitChangelistDialog2" timestamp="1603247315319">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="299" y="37" key="CommitChangelistDialog2/0.23.1440.827@0.23.1440.827" timestamp="1603247315319" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom" timestamp="1603253813372">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.824@0.23.1440.824" timestamp="1603237831826" />
-    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1603239451052" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1603239451051">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1603252726914" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1603253813372" />
+    <state width="1398" height="213" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1603249848183" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center" timestamp="1603253813371">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.824@0.23.1440.824" timestamp="1603237831825" />
-    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1603239451051" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1603239451051">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1603252726913" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1603253813371" />
+    <state width="1398" height="213" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1603249848182" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left" timestamp="1603253813370">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.824@0.23.1440.824" timestamp="1603237831824" />
-    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1603239451051" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1603239451052">
-      <screen x="0" y="23" width="1440" height="825" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1603252726913" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1603253813370" />
+    <state width="1398" height="213" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1603249848182" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right" timestamp="1603253813371">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.824@0.23.1440.824" timestamp="1603237831825" />
-    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1603239451052" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1603252726914" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1603253813371" />
+    <state width="1398" height="213" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1603249848183" />
     <state x="258" y="97" key="Maven.ArtifactSearchDialog" timestamp="1603230643404">
       <screen x="0" y="23" width="1440" height="824" />
     </state>
@@ -110,5 +166,14 @@
       <screen x="0" y="23" width="1440" height="824" />
     </state>
     <state x="221" y="74" key="SettingsEditor/0.23.1440.824@0.23.1440.824" timestamp="1603231244144" />
+    <state x="397" y="267" key="com.intellij.ide.util.TipDialog" timestamp="1603244735792">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="397" y="267" key="com.intellij.ide.util.TipDialog/0.23.1440.827@0.23.1440.827" timestamp="1603244735792" />
+    <state x="385" y="174" width="670" height="676" key="search.everywhere.popup" timestamp="1603253569007">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="385" y="174" width="670" height="676" key="search.everywhere.popup/0.23.1440.826@0.23.1440.826" timestamp="1603253569007" />
+    <state x="385" y="174" width="670" height="676" key="search.everywhere.popup/0.23.1440.827@0.23.1440.827" timestamp="1603250503345" />
   </component>
 </project>
